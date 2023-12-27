@@ -22,3 +22,9 @@ jobs:
       - name: pytest check
         run: |
           make test
+      - name: black
+        run: |
+          make black
+      - name: all
+        run: |
+          make all
