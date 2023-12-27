@@ -8,6 +8,6 @@ Build out python project scaffold:
 * [test_library](https://github.com/Phatcm/python-scaffold/blob/master/test_devopslib.py)
 * [github_action](https://github.com/Phatcm/python-scaffold/blob/master/.github/workflows/main.yml)
 
-Step 1: py -m venv .venv
-Step 2: .venv\Scripts\activate (For linux: source .venv/Scripts/activate)
+Step 1: py -m venv .venv \n
+Step 2: .venv\Scripts\activate (For linux: source .venv/Scripts/activate) \n
 Step 3: make all
