@@ -9,6 +9,6 @@ jobs:
         with:
           python-version: "3.9"
       - name: install requirements
-        run: pip install -r requirements.txt
-      - name: run home.py
-        run: python home.py
+        run: make install
+      - name: check code
+        run: make lint
