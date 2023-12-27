@@ -1,6 +1,5 @@
 name: py_run
-on:
-  push
+on: workflow_dispatch
 jobs:
   requirements:
     runs-on: ubuntu-latest
