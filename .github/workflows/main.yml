@@ -16,6 +16,9 @@ jobs:
       - name: install requirements
         run: |
           make install
-      - name: check code
+      - name: lint check
         run: |
           make lint
+      - name: pytest check
+        run: |
+          make test
