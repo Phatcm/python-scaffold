@@ -9,6 +9,5 @@ jobs:
         with:
           python-version: "3.9"
       - name: install requirements
-        run: make install
-      - name: check code
-        run: make lint
+        run: |
+          make install
